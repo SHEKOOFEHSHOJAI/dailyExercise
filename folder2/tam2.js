@@ -22,3 +22,33 @@ console.log(str1.split(','));
 let scope=10;
 scope+=5;
 console.log(scope++);
+//////////////////////////////
+//200+0/0=nun
+//ca'nt taghir
+const myAge=29
+myAge++;
+console.log(myAge);
+////////////type conversion
+//manual
+const num=prompt('inter number')
+console.log(Number(num)+10)
+console.log("5"+null)
+//function
+//declartion
+//expration
+//arrow
+function sum(num1,num2){
+    console.log(num1+num2)
+}
+
+sum(6, 9);
+//arrow
+let a=()=>{
+
+}
+
+const arr=['a','b','c','g'];
+
+for (let i = 0; i < arr.length; i++) {
+  const element = array[i];
+}
