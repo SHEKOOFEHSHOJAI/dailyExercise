@@ -137,6 +137,18 @@ function collectEggs() {
 
 
 
+const traine = {
+  tom: 20,
+  george: 17,
+  abdul: 19,
+};
+
+for(const key in traine ){
+ console.log(key);
+// if(traine[key]>17){
+//    console.log(`${key.toUpperCase()}: ${traine[key]}`);
+// }
+}
 
 
 
@@ -144,5 +156,11 @@ function collectEggs() {
 
 
 
+// const  footbal={
+//     name:"shekoofeh",
+//     family:"shojai",
+//     age:22
 
-
+// }
+// console.log(Object.keys(footbal));
+// console.log(Object.values(footbal))
