@@ -116,20 +116,33 @@ function collectEggs() {
 
 
 
-let person1 = {
-  name: "Alice",
-  age: 25,
-};
+// let person1 = {
+//   name: "Alice",
+//   age: 25,
+// };
 
-let person2 = {
-  name: "Bob",
-  age: 30,
-};
+// let person2 = {
+//   name: "Bob",
+//   age: 30,
+// };
 
-let person3 = {
-  name: "John",
-  age: 20,
-};
-const personels=[person1,person2,person3];
- let personNames=personels.map(()=>personels.name);
- let personsYoungerThan28YearsOld =personels.filter(()=>personels.age<28)
+// let person3 = {
+//   name: "John",
+//   age: 20,
+// };
+// const personels=[person1,person2,person3];
+//  let personNames=personels.map(()=>personels.name);
+//  let personsYoungerThan28YearsOld =personels.filter(()=>personels.age<28)
+
+
+
+
+
+
+
+
+
+
+
+
+

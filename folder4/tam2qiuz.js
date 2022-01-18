@@ -35,4 +35,6 @@ let travelDestinations = [
   destination3,
   destination4,
 ];
-let destinationNamesWithin500Kms = travelDestinations.filter((kilometr)=>)
+// let destinationNamesWithin500Kms = travelDestinations.filter( (kilometr) => kilometr<=500).map((ele)=>);
+//  console.log(destinationNamesWithin500Kms);
+
