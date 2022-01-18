@@ -82,7 +82,24 @@ console.log(animals.slice(3, 5));
 const{IP ,random, e,max}=Math;
 
 
-console.log(max(1,2,3));
+// console.log(max(1,2,3));
 //Array destuctureing
-const[first,sec,thid]=[12,13,14];
-console.log(first)
+// const[first,sec,thid]=[12,13,14];
+// console.log(first)
+
+
+const correaly=[1200,1300,4000,700,8000];
+// console.log(correaly[0]);
+console.log([...correaly]);
+//object destucture
+
+const squre={
+    name:"shekoofhe",
+    family:"sashojai",
+    car:{
+     color:"red",
+     model:"samand",
+
+    },
+    laptup:["asus","lenovo"]
+}
