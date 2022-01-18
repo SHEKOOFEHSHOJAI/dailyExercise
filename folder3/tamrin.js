@@ -10,3 +10,20 @@ console.log(n);
 const animals = [1, 2, 3, 4, 5];
 
 console.log(animals.slice(3, 5));
+
+let laptop = {
+  brand: "Lenovo",
+  screenSize: 13,
+  isTouchscreen: true,
+  colors: ["spaceGray", "black", "white"],
+  spec: {
+    owner: "vahid",
+    age: 24,
+    height: undefined,
+  },
+};
+
+console.log(laptop.brand)
+console.log(laptop["spec"]["owner"]);
+console.log(laptop["spec"]["age"]);
+console.log(laptop.colors[1][3]);
