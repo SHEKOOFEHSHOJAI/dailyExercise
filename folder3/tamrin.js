@@ -79,7 +79,7 @@ console.log(animals.slice(3, 5));
 
 // rol()
 //varable destucture
-const{IP ,random, e,max}=Math;
+const{PI ,random, e,max}=Math;
 
 
 // console.log(max(1,2,3));
@@ -90,12 +90,13 @@ const{IP ,random, e,max}=Math;
 
 const correaly=[1200,1300,4000,700,8000];
 // console.log(correaly[0]);
-console.log([...correaly]);
+// console.log([...correaly]);
 //object destucture
 
 const squre={
     name:"shekoofhe",
     family:"sashojai",
+    size:3,
     car:{
      color:"red",
      model:"samand",
@@ -103,3 +104,7 @@ const squre={
     },
     laptup:["asus","lenovo"]
 }
+const squre1=ayn=>{
+    return (PI*ayn.size*ayn.size).toFixed(1);
+}
+ console.log(squre1(squre))   
