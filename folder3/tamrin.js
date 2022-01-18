@@ -27,3 +27,45 @@ console.log(laptop.brand)
 console.log(laptop["spec"]["owner"]);
 console.log(laptop["spec"]["age"]);
 console.log(laptop.colors[1][3]);
+
+const mystry="answer"
+let inverseOfPI=12;
+const ali={
+   
+     d1:()=>{},//arrow
+     [mystry] : 21,
+    inverseOfPI
+}
+
+console.log(ali.inverseOfPI);
+console.log(ali[mystry]); 
+ console.log(ali.answer)
+ ;
+
+     
+ console.log(ali[mystry]);
+ 
+
+
+
+ //////
+ const test={
+     jasem:()=>{
+         console.log("this is arrow",this)
+        
+
+         
+     },
+   jasem1: function(){
+      
+           console.log("this is jasem1",this)
+      
+       
+   } , 
+   jasem2:function(){
+ console.log("this is jasem2",this)
+   }
+ }
+ console.log(test.jasem())
+ console.log(test.jasem1())
+ console.log(test.jasem2())
