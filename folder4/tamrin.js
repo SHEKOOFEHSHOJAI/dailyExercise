@@ -144,7 +144,7 @@ const traine = {
 };
 
 for(const key in traine ){
- console.log(key);
+//  console.log(key);
 // if(traine[key]>17){
 //    console.log(`${key.toUpperCase()}: ${traine[key]}`);
 // }
@@ -164,3 +164,34 @@ for(const key in traine ){
 // }
 // console.log(Object.keys(footbal));
 // console.log(Object.values(footbal))
+for(let i=0;i<5;i++){
+  console.log(`${i}--in shabi k migan shab nis`)  
+}
+for(let i=0;i<=20;i++){
+    if(i%2==0){
+  console.log(true);
+
+    } 
+   else{
+      console.log(false) 
+   }
+}
+
+
+///////
+// let prom=prompt("inter yotr pass")
+// if(password!="aps"){
+//   password=prompt(" deght konid")
+// }
+
+const test = [
+  ["motahare", "anahid", "amirmostafa"],
+  ["maryam", "amir", "mina"],
+  ["fatemeh", "fereshte", "kian"],
+  ["kosar", "mohammad", "yousof"],
+  ["mohsen", "hoseyn ", "shaden"],
+];
+test.forEach((elem)=>{
+  console.log(elem)
+  // elem.forEach((ele)=> console.log(ele) )
+} )
