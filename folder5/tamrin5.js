@@ -41,7 +41,7 @@
       " Don't count on it.",
       "My reply is no.",
       "My sources say no.",
-      "Outlook not so good.",
+      "Outlook not sogood. ",
       "Very doubtful.",
     ];
 const color=[yellow,red];
@@ -49,18 +49,23 @@ const color=[yellow,red];
  let b = color[Math.floor(Math.random() * color.length-1) + 1]; 
 
 
-
   function nam(params) {
    
-          if (color[0] === yellow) {
-            console.log("negtive" + color[0]);
+          if (b === yellow) {
+              let mp = color[0].map((elem) => console.log("negtive     " + elem));
+                // console.log(elem))
+             
+
+           
           } 
-          else if (color[1] === red) {
-            console.log("nachral");
+        else if (b === red) {
+
+             let mp = color[1].map((elem) =>
+               console.log("nachral     " + elem)
+             );
+            
           } 
-        //   else if (b === "green") {
-        //     console.log("posetive");
-        //   }
+        
      
     }
     nam(b)
