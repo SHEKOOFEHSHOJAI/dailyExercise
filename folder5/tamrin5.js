@@ -28,25 +28,49 @@
 
 
 
-  
-    const color = {
-      yellow: [
-        " Reply hazy, try again.",
-        "Ask again later.",
-        "Better not tell you now.",
-        "Cannot predict now.",
-        "Concentrate and ask agai",
-      ],
+    let = [];
+    const yellow = [
+      " Reply hazy, try again.",
+      "Ask again later.",
+      "Better not tell you now.",
+      "Cannot predict now.",
+      "Concentrate and ask agai",
+    ];
 
-      red: [
-        " Don't count on it.",
-        "My reply is no.",
-        "My sources say no.",
-        "Outlook not so good.",
-        "Very doubtful.",
-      ],
-    };
+    const red = [
+      " Don't count on it.",
+      "My reply is no.",
+      "My sources say no.",
+      "Outlook not so good.",
+      "Very doubtful.",
+    ];
+const color=[yellow,red];
+
+ let b = color[Math.floor(Math.random() * color.length-1) + 1]; 
 
 
-   let b = color[Math.floor(Math.random() * color.length) + 1]; 
-   console.log(b);  
+
+  function nam(params) {
+   
+          if (color[0] === yellow) {
+            console.log("negtive" + color[0]);
+          } 
+          else if (color[1] === red) {
+            console.log("nachral");
+          } 
+        //   else if (b === "green") {
+        //     console.log("posetive");
+        //   }
+     
+    }
+    nam(b)
+// if(color[0]===yellow){
+//     console.log("                   ok")
+// }
+// else if(color[1]===red){
+//     console.log("           red");
+// }
+
+//  let mp=b.map((elem)=>elem.map((ele)=>console.log(ele)))
+
+//   console.log(b)
