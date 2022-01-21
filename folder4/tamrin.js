@@ -247,9 +247,108 @@ let array = ["atena", "maryam", "deniz"];
 
 
 
-// const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
+ const prices = [9.99, 1.5, 19.99, 49.99, 30.5];
 // let p=0;
 // for(let pric of prices){
 // p += pric;
 // }
 // console.log(p)
+
+
+
+//  let total=prices.reduce((reque, curent)=>{
+// console.log("requr"+reque)
+// console.log("curent"+curent)
+// return reque+curent
+//  });
+//  console.log(total)
+
+//  const evens = [2, 4, 6, 8];
+//  const sumWithNew = evens.reduce((sum, num) =>{ 
+//    console.log(sum)
+//    console.log(num);
+//    sum+=num,100
+  
+  
+//   } );
+
+//  console.log("i am sumWithNew" + sumWithNew);
+
+
+
+// let dice1=Math.floor(Math.random()*6)+1
+// let dice2=Math.floor(Math.random()*6)
+// console.log(`dic1:${dice1} and  dice2:  ${dice2} and jame ${dice1+dice2}`)
+
+// alert("hi gys")
+// let age=prompt("inter your age");
+//  console.log("age",typeof age)
+//  let ageNum = parseInt(age);
+
+//  console.log(ageNum, typeof ageNum);
+
+
+
+// let yourName = prompt("please write your your name:");
+
+
+// if (yourName.toUpperCase() === "SHEKOOFEH") {
+//   console.log("Welcome SHEKOOFEH");
+// }
+// let password="jjjjj";
+// if(password.length>3){
+// if(password.indexOf(" ")===-1){
+// console.log("ok")
+// }
+// else{
+//   console.log("in space to pass")
+// }
+
+
+// }else{
+//  console.log("kamtar  3")
+// }
+
+
+
+//////////////////////////////switch
+// let date = new Date;
+// let day = date.getDay();
+
+// switch(day){
+//   case 1:
+//     console.log("mondey")
+//     break;
+//     case 2:
+//       console.log("saturday")
+//       break;
+//       case 3:
+//         console.log("friday")
+//         break;
+//     default:
+//      console.log("end")
+//     break;
+// }
+
+
+
+
+
+////////////////////////
+
+
+let myFirstArray = [
+  123,
+  "Kosar",
+  NaN,
+  undefined,
+  ["Benmyamin Eslami", 20],
+  null,
+  "hassan",
+  true,
+  false,
+];
+
+
+console.log(" inde  "+typeof myFirstArray[1][1]);
+
