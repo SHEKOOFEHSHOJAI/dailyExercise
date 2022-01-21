@@ -4,7 +4,6 @@
 // 2- Find a destination name reachable by ferry.
 // 3- Print in the console all the destination names more than 300 kms far away and reachable by train.
 
-
 let destination1 = {
   destinationName: "Edinburgh",
   distanceKms: 80,
@@ -37,4 +36,3 @@ let travelDestinations = [
 ];
 // let destinationNamesWithin500Kms = travelDestinations.filter( (kilometr) => kilometr<=500).map((ele)=>);
 //  console.log(destinationNamesWithin500Kms);
-
