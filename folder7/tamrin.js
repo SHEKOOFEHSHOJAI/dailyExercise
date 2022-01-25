@@ -21,3 +21,21 @@
 // }
 
 // console.log(greet("Anahid", "XXXXXX"));
+
+// const organiz=[
+// {color:"red",name:"shekoofeh"},
+// {
+//     modelcar:13,
+
+// }
+// ]
+
+// let orga=organiz.filter(({modelcar})=>modelcar>=10)
+
+// console.log(orga);
+
+const slect=document.querySelector('a[title="java"]')
+const sle=document.querySelectorAll('p a');
+
+
+
