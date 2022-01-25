@@ -42,3 +42,8 @@ slect.setAttribute('id',slect)
 
 sle.getAttribute("id")
 console.log(window.getComputedStyle(sle));
+const h2 = document.querySelector("h2");
+h2.classList.add("new")
+h2.setAttribute("id","sh")
+h2.classList.remove("sh")
+console.log(h2.classList.contains("sh"))
