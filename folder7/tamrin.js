@@ -40,4 +40,5 @@ sle.id="new";
 sle.src="";
 slect.setAttribute('id',slect)
 
-
+sle.getAttribute("id")
+console.log(window.getComputedStyle(sle));
