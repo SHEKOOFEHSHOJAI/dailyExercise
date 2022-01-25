@@ -36,6 +36,8 @@
 
 const slect=document.querySelector('a[title="java"]')
 const sle=document.querySelectorAll('p a');
-
+sle.id="new";
+sle.src="";
+slect.setAttribute('id',slect)
 
 
