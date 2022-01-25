@@ -47,3 +47,8 @@ h2.classList.add("new")
 h2.setAttribute("id","sh")
 h2.classList.remove("sh")
 console.log(h2.classList.contains("sh"))
+
+
+//////classlis toggle chek mikonad 
+//mojod bodan ya nabodan if nabod  add return true else false
+console.log(h2.classList.toggle("sh"));
