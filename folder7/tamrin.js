@@ -52,3 +52,13 @@ console.log(h2.classList.contains("sh"))
 //////classlis toggle chek mikonad 
 //mojod bodan ya nabodan if nabod  add return true else false
 console.log(h2.classList.toggle("sh"));
+
+
+
+const chicken = document
+  .querySelector("#egg")
+  .setAttribute(
+    "src",
+    "https://ctl.s6img.com/society6/img/6KLGBRmtYG8sc6vShMmCzkIBuVc/w_1500/posters/top/~artwork,fw_2718,fh_3619,fx_-14,fy_162,iw_2745,ih_3294/s6-original-art-uploads/society6/uploads/misc/25b61819b78d4267ae26919e142ac513/~~/youre-eggzactly-my-type-funny-egg-pun-posters.jpg"
+  );
+document.getElementById("#egg").setAttribute('src',"jojo")
