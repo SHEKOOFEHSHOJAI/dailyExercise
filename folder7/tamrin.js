@@ -5,11 +5,19 @@
 // doil()
 
 
- function rollDieOld(numSides) {
-  if (numSides === undefined) {
+//  function rollDieOld(numSides) {
+//   if (numSides === undefined) {
     
-    numSides = 6;
-  }
-  return Math.floor(Math.random() * numSides) + 1;
-}
-console.log(rollDieOld(40))
+//     numSides = 6;
+//   }
+//   return Math.floor(Math.random() * numSides) + 1;
+// }
+// console.log(rollDieOld(40))
+
+
+
+//  function greet(person, msg = "Goodbye", exp = "!!!!") {
+//   return `${msg}, ${person} ${exp}`;
+// }
+
+// console.log(greet("Anahid", "XXXXXX"));
