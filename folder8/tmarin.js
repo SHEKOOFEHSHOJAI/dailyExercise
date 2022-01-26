@@ -14,5 +14,12 @@ let n=document.querySelectorAll('h1 span')
 
 
 ////map  becuse map give array use the array.form
-let mp=Array.from(n).map((ele)=>console.log(ele))
-console.log(mp);
+// let mp=Array.from(n).map((ele,index)=>console.log(ele.style.color=color[index]))
+// console.log(mp);
+
+
+////////
+// let mp = Array.from(n).map(({style}, index) =>
+//   console.log((style.color = color[index]))
+// );
+// console.log(mp);
