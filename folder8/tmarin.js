@@ -7,4 +7,12 @@ let n=document.querySelectorAll('h1 span')
 //     console.log(iterator.style.color = color[count]);
 //     count++;
 // }
-n.forEach((ele,index)=>console.log( color[index]))
+
+
+////foreach
+// n.forEach((ele,index)=>console.log(ele.style.color= color[index]))
+
+
+////map  becuse map give array use the array.form
+let mp=Array.from(n).map((ele)=>console.log(ele))
+console.log(mp);
