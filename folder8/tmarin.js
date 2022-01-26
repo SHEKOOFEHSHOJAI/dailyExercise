@@ -23,3 +23,30 @@ let n=document.querySelectorAll('h1 span')
 //   console.log((style.color = color[index]))
 // );
 // console.log(mp);
+
+
+//////////////made 100button
+for (let i = 1; i <=100; i++) {
+    const button = document.createElement("button")
+    button.textContent=`i am button ${i}`
+    button.style.backgroundColor="red";
+    button.style.borderRadius="8px"
+    button.style.borderLeft="10px"
+    button.style.margin="4px"
+   
+  document.body.appendChild(button) 
+ 
+    button.onclick=(()=> button.style.backgroundColor="blue")
+}
+//  
+
+//////////remove element
+// const a = document.querySelector("a");
+// let prent = a.parentElement;
+// prent.removeChild(a);
+// console.log(prent);
+
+
+////addeventlistener=(event,function)
+
+button.addEventListener("dbclick",()=>console.log("click me"))
