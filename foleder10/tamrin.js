@@ -30,3 +30,39 @@ i9o
           avatarEls[i].style.height = "20px";
           avatarEls[i].title = avatarEls[i].alt;
         }
+
+       ////step1
+        //This webpage is all about trendy styles, and you'll use JS to fill in the trends and style them with CSS properties. In this first step, use JS to set the innerHTML of colorEl to your favorite color, and then use JS to set a matching color property.
+            var colorEl = document.getElementById("trendy-color");
+            colorEl.innerHTML = "clo";
+            colorEl.style.color = "red";
+            var handEl = document.getElementById("trendy-handwriting");
+            var frameEl = document.getElementById("trendy-frame");
+        
+
+
+            ///////step2 
+            ///Now use JS to set the text of handEl to your favorite celebrity's name and set a matching CSS font family property.
+
+
+
+
+              var colorEl = document.getElementById("trendy-color");
+              colorEl.innerHTML = "clo";
+              colorEl.style.color = "red";
+              var handEl = document.getElementById("trendy-handwriting");
+              handEl.innerHTML = "hesami";
+              handEl.style.fontFamily = "sans-serif";
+              var frameEl = document.getElementById("trendy-frame");
+             ////Finally, use JS to set the border of frameEl to some style that you think looks good.
+
+               frameEl.style.border = "10px solid think ";
+              
+
+///This is an inside story about the true feelings of Oh Noes and Winston, and in this challenge, you'll fill in the crucial lines. For this first step, use innerHTML to set what Oh Noes says, and include a strong or em tag somewhere in it.
+            var ohnoesSays = document.getElementById("ohnoes-says");
+            ohnoesSays.innerHTML = "<strong><em>Oh Noes</strong>";
+            var winstonSays = document.getElementById("winston-says");
+            winstonSays.textContent = "Winston says";
+
+
