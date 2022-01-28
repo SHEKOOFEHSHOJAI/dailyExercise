@@ -81,8 +81,42 @@ i9o
               var stronNode=document.createTextNode("cat")
               strong.appendChild(stronNode);
 
-
+              imgEl.style.backgroundColor
 
               /////Create a planet
             //This webpage is just a blank universe, and you'll fill it with planets and moons in this challenge. In this first step, use JavaScript to create a div using createElement, assign it the 'planet' class, set a nice background color for it, and finally append it to the body.
+              var div = document.createElement("div");
 
+              console.log(div);
+              div.className = "planet";
+              div.style.backgroundColor = "red";
+              document.body.appendChild(div);
+
+
+              //Create a moon
+             ///In this step, create another div using createElement, assign it the 'moon' class, and append it to the planet that you just created. When you're done, feel free to add many more planets and moons!
+               var div = document.createElement("div");
+
+               div.className = "planet";
+               div.style.backgroundColor = "red";
+               document.body.appendChild(div);
+
+               var moonEl = document.createElement("div");
+               moonEl.className = "moon";
+               div.appendChild(moonEl);
+
+
+               /////remove atterbute in dom
+               //element.removeAttribute(attrName);
+               imgEl.removeAttribute("disabled");
+
+
+               // add or remove multiple classes
+                    div.classList.add("foo", "bar", "baz");
+                    div.classList.remove("foo", "bar", "baz");
+            /////event
+            //  mouse events (MouseEvent(Opens in a new window)): mousedown, mouseup, click, dblclick, mousemove, mouseover, mousewheel, mouseout, contextmenu
+            //touch events (TouchEvent): touchstart, touchmove, touchend, touchcancel
+             //keyboard events (KeyboardEvent(Opens in a new window)): keydown, keypress, keyup
+            // form events: focus, blur, change, submit
+            //window events: scroll, resize, hashchange, load, unload
