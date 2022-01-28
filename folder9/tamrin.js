@@ -57,8 +57,28 @@ function differenceInAges(ages){
 //The geese are any strings in the following array, which is pre-populated in your solution:
 
 
- function gooseFilter (birds) {
-  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-  return birds.filter(item=> !geese.includes(item))
-  // return an array containing all of the strings in the input array except those that match strings in geese
+//  function gooseFilter (birds) {
+//   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//   return birds.filter(item=> !geese.includes(item))
+//   // return an array containing all of the strings in the input array except those that match strings in geese
+// };
+//  gooseFilter(birds);
+
+
+
+
+
+
+//////////
+
+// var Ball = function (ballType) {
+//   this.ballType = ballType || "regular";
+// };
+// console.log(ball);
+
+
+///////
+let Ball = function (ballType) {
+ console.log( this.ballType = typeof ballType !== "undefined" ? ballType : "regular");
 };
+console.log(Ball);
