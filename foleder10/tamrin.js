@@ -66,3 +66,23 @@ i9o
             winstonSays.textContent = "Winston says";
 
 
+
+            ////
+
+
+            let imgEl=document.createElement("img");
+            imgEl.src =
+              "https://www.kasandbox.org/programming-images/animals/cat.png";
+
+              imgEl.alt="this is img cat";
+              document.body.appendChild(imgEl)
+              /////<strong>cat</strong>
+              var strong=document.createElement("strong")
+              var stronNode=document.createTextNode("cat")
+              strong.appendChild(stronNode);
+
+
+
+              /////Create a planet
+            //This webpage is just a blank universe, and you'll fill it with planets and moons in this challenge. In this first step, use JavaScript to create a div using createElement, assign it the 'planet' class, set a nice background color for it, and finally append it to the body.
+
