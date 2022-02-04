@@ -21,9 +21,10 @@ function scr(params) {
 
 
 ////////////random color
-const clickEl = document.querySelector("#click_me");
-console.log(clickEl);
-const Welcome = document.querySelector("#Welcome");
+
+// const clickEl = document.querySelector("#click_me");
+// console.log(clickEl);
+// const Welcome = document.querySelector("#Welcome");
 
 function randomColor(params) {
     console.log("click");
@@ -34,6 +35,25 @@ function randomColor(params) {
     return `rgb(${r} ${g} ${b})`
 }
 
- clickEl.addEventListener("click",()=>{
-   document.body.style.backgroundColor=randomColor()  
- }); 
+//  clickEl.addEventListener("click",()=>{
+//    document.body.style.backgroundColor=randomColor()  
+//  }); 
+
+
+
+/////random color btn
+
+
+let btn = document.getElementsByTagName("button");
+console.log(btn);
+for (const iterator of btn) {
+  console.log(iterator);
+
+     iterator.addEventListener("click", (ele) => {
+     console.log(ele);
+     iterator.style.backgroundColor = randomColor();
+     iterator.style.color = randomColor();
+     
+    });
+}
+
