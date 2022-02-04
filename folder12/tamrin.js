@@ -16,3 +16,24 @@ function scr(params) {
 //     width.textContent=window.innerWidth
 // }
 // window.addEventListener("resize",name)
+
+
+
+
+////////////random color
+const clickEl = document.querySelector("#click_me");
+console.log(clickEl);
+const Welcome = document.querySelector("#Welcome");
+
+function randomColor(params) {
+    console.log("click");
+    const r=Math.floor(Math.random()*255)
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+    console.log(`${g} ${r} ${b}`);
+    return `rgb(${r} ${g} ${b})`
+}
+
+ clickEl.addEventListener("click",()=>{
+   document.body.style.backgroundColor=randomColor()  
+ }); 
