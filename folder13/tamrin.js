@@ -68,19 +68,26 @@ form.addEventListener("submit",(e)=>{
  // console.log(form.elements.username.value);
  const inputUserName=e.target.username.value;
   const inputtweet = e.target.tweet.value;
-  console.log(inputtweet);
+
+//   console.log(inputtweet, inputtweet);
+
    if (!inputUserName || !inputtweet) {
        alert("lotfan khali nabashad")
    }
-
-   const li=document.createElement("li")
-   const b=document.createElement("b");
-      b.innerText = inputUserName;
-   li.innerText=inputtweet
-
-   li.append(b)
-   ul.append(li)
+ 
+     addtweet(inputUserName, inputtweet);
 })
 
 
 
+const addtweet = (username, tweet) => {
+  const li = document.createElement("li");
+  const b = document.createElement("b");
+
+//   b.innerText = inputUserName;
+//   li.innerText = inputtweet;
+
+b.append(username);
+  li.append(b, ` - ${tweet}`);
+  ul.append(li);
+};
