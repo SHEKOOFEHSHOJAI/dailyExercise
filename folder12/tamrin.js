@@ -58,6 +58,4 @@ function randomColor(params) {
 // }
 
 
-/////bazi
-
 
