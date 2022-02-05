@@ -44,16 +44,20 @@ function randomColor(params) {
 /////random color btn
 
 
-let btn = document.getElementsByTagName("button");
-console.log(btn);
-for (const iterator of btn) {
-  console.log(iterator);
+// let btn = document.getElementsByTagName("button");
+// console.log(btn);
+// for (const iterator of btn) {
+//   console.log(iterator);
 
-     iterator.addEventListener("click", (ele) => {
-     console.log(ele);
-     iterator.style.backgroundColor = randomColor();
-     iterator.style.color = randomColor();
+//      iterator.addEventListener("click", (ele) => {
+//      console.log(ele);
+//      iterator.style.backgroundColor = randomColor();
+//      iterator.style.color = randomColor();
      
-    });
-}
+//     });
+// }
+
+
+/////bazi
+
 
