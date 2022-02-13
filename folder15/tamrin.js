@@ -31,16 +31,34 @@ g("promise.com/page1")
     console.error("oh noooo...", err);
   });
 
-let time=3000;
-  const daiycolor=(newcolor,daily,donex)=>{
-      setTimeout(() => {
-      document.body.style.backgroundColor=newcolor
-      donex()
+// let time=3000;
+//   const daiycolor=(newcolor,daily,donex)=>{
+//       setTimeout(() => {
+//       document.body.style.backgroundColor=newcolor
+//      donex && donex()
           
-      }, daily);
-  }
-  daiycolor("green",time,()=>{
-     daiycolor("green",time,()=>{
-      daiycolor("green",time)
-  }); 
-  });
+//       }, daily);
+//   }
+//   daiycolor("green",time,()=>{
+//      daiycolor("green",time,()=>{
+//       daiycolor("green",time)
+//   }); 
+//   });
+
+
+
+//js2-2
+
+function nameEl(params) {
+    if (params===undifind) {
+     params=7;
+    }
+    return Math.floor(Math.random()*params)+1;
+}
+nameEl()
+////
+const cats = ["Persian", "British", "Devon"];
+const dogs = ["Greyhound", "Huski", "Saluki", "Retriever"];
+
+const allpen=["this is ",...cats,...dogs,"the end"]
+console.log(allpen);
