@@ -62,3 +62,8 @@ const dogs = ["Greyhound", "Huski", "Saluki", "Retriever"];
 
 const allpen=["this is ",...cats,...dogs,"the end"]
 console.log(allpen);
+
+console.log(..."hi  gus")
+
+
+
