@@ -70,3 +70,5 @@ console.log(window.status);
 //complate   hame loda shod
 
 console.log(this.readyState);
+
+///json  => javascript object notation
