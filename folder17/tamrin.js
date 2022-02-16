@@ -17,38 +17,38 @@
 // }
 
 
-//  document.querySelector("#button").addEventListener("click",loadData)
-//     //made shy
+ document.querySelector("#button").addEventListener("click",loadData)
+    //made shy
    
 
-//     function loadData() {
+    function loadData() {
       
-//          const xhr = new XMLHttpRequest();
-//          //open rqust
+         const xhr = new XMLHttpRequest();
+         //open rqust
 
-//          xhr.open("GET", "data.tex", true);
+         xhr.open("GET", "data.tex", true);
 
-//          ///load
+         ///load
 
-//         xhr.onload = function () {  
-//           console.log(this.status);
-//            if (this.status === 200 && this.readyState) {
-//              //  document.querySelector(
-//              //    "#output"
-//              //  ).innerHTML = `<h1>${this.responseText}</h1>`;
-//              const h1 = (document.createElement("h1").textContent =
-//                this.responseText);
-//                    const div = document.querySelector("#output");
-//                    div.append(h1);
-//              console.log(this.readyState);
+        xhr.onload = function () {  
+          console.log(this.status);
+           if (this.status === 200 && this.readyState) {
+             //  document.querySelector(
+             //    "#output"
+             //  ).innerHTML = `<h1>${this.responseText}</h1>`;
+             const h1 = (document.createElement("h1").textContent =
+               this.responseText);
+                   const div = document.querySelector("#output");
+                   div.append(h1);
+             console.log(this.readyState);
              
-//            }
-//          }
-//          xhr.send();
+           }
+         }
+         xhr.send();
 
 
 
-//     }
+    }
 
 
 //status
@@ -69,6 +69,4 @@
 //interactive   load shode document but script dar hale loding hast
 //complate   hame loda shod
 
-
-span.textContent = "A <span> element.";
-document.body.appendChild(span);
+console.log(this.readyState);
