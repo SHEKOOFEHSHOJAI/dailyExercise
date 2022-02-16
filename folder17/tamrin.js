@@ -49,7 +49,7 @@
 
 
     }
-
+console.log(window.status);
 
 //status
 //status 200 => corrct
