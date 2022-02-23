@@ -26,3 +26,38 @@ function House(numBedrooms) {
 }
 const myHouse = new House(12);
 myHouse instanceof House;
+
+
+
+
+function Bird(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
+
+//Add the own properties of canary to the array ownProps.
+let canary = new Bird("Tweety");
+let ownProps = [];
+// Only change code below this line
+for (let property in canary) {
+  if (canary.hasOwnProperty(property)) {
+    ownProps.push(property);
+  }
+}
+
+
+
+
+
+
+
+
+//Add a numLegs property to the prototype of Dog
+function Dog(name) {
+  this.name = name;
+}
+
+// Only change code above this line
+let beagle = new Dog("Snoopy");
+//Dog.prototype.numLegs = 2;
+console.log((Dog.prototype.numLegs = 2));
