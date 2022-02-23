@@ -40,7 +40,7 @@
                this.responseText);
                    const div = document.querySelector("#output");
                    div.append(h1);
-             console.log(this.readyState);
+                console.log(this.readyState);
              
            }
          }
@@ -72,3 +72,14 @@ console.log(window.status);
 console.log(this.readyState);
 
 ///json  => javascript object notation
+
+//1378
+//8534954
+// const json = { result: true, count: 42 };
+// const obj = JSON.parse(json);
+
+
+//this is jason
+// const json = '{"result":true, "count":42}';
+// const obj = JSON.parse(json);
+// console.log(obj);
