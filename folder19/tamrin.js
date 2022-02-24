@@ -190,3 +190,34 @@ Dog.prototype.bark = function () {
 let beagle = new Dog();
 beagle.eat();
 beagle.bark();
+
+
+
+
+////
+let bird = {
+  name: "Donald",
+  numLegs: 2,
+};
+
+let boat = {
+  name: "Warrior",
+  type: "race-boat",
+};
+
+// Only change code below this line
+let glideMixin = function (obj) {
+  obj.glide = function () {
+    console.log("Flying, wooosh!");
+  };
+};
+glideMixin(bird);
+glideMixin(boat); 
+
+
+
+
+//Understand the Immediately Invoked Function Expression (IIFE)
+(() => {
+  console.log("A cozy nest is ready");
+})();
