@@ -1,36 +1,36 @@
 //Iterate Over All Properties
 
-function Bird(name) {
-  this.name = name; //own property
-}
+// function Bird(name) {
+//   this.name = name; //own property
+// }
 
-Bird.prototype.numLegs = 2; // prototype property
+// Bird.prototype.numLegs = 2; // prototype property
 
-let duck = new Bird("Donald");
+// let duck = new Bird("Donald");
 
 
 
 //Add all of the own properties of beagle to the array ownProps.
 // Add all of the prototype properties of Dog to the array prototypeProps.
-function Dog(name) {
-  this.name = name;
-}
+// function Dog(name) {
+//   this.name = name;
+// }
 
-Dog.prototype.numLegs = 4;
+// Dog.prototype.numLegs = 4;
 
-let beagle = new Dog("Snoopy");
+// let beagle = new Dog("Snoopy");
 
-let ownProps = [];
-let prototypeProps = [];
+// let ownProps = [];
+// let prototypeProps = [];
 
-// Only change code below this line
-for (let be in beagle) {
-  if (beagle.hasOwnProperty(be)) {
-    ownProps.push(be);
-  } else {
-    prototypeProps.push(be);
-  }
-}
+// // Only change code below this line
+// for (let be in beagle) {
+//   if (beagle.hasOwnProperty(be)) {
+//     ownProps.push(be);
+//   } else {
+//     prototypeProps.push(be);
+//   }
+// }
 
 
 
@@ -43,10 +43,76 @@ function Dog(name) {
 }
 
 // Only change code below this line
-function joinDogFraternity(candidate) {
-  if (candidate.constructor == Dog) {
-    return true;
-  } else {
-    return false;
-  }
+
+// function joinDogFraternity(candidate) {
+//   if (candidate.constructor == Dog) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// function Bird(name) {
+//   this.name = name;
+// }
+
+// // const B=new Bird()
+// Bird.prototype.eat = function () {
+//   console.log("nom nom nom");
+// };
+
+
+function Dog(name) {
+  this.name = name;
 }
+
+Dog.prototype = {
+  // Only change code below this line
+  numLegs: 2,
+  eat: function () {
+      console.log("salam");
+  },
+  describe: () => {},
+  
+};
+ console.log(Dog.eat());
+
+
+ //Just like people inherit genes from their parents, an object inherits its prototype directly from the constructor function that
+ // created it. For example, here the Bird constructor creates the duck object:
+ function Dog(name) {
+   this.name = name;
+ }
+
+ let beagle = new Dog("Snoopy");
+
+ // Only change code below this line
+Dog.prototype.isPrototypeOf(beagle);
+
+
+
+
+
+
+//qustion
+//Modify the code to show the correct prototype chain
+
+//tozihat
+//The hasOwnProperty method is defined in Object.prototype, which can 
+//be accessed by Bird.prototype, which can then be accessed by duck. This is 
+//an example of the prototype chain. In this prototype chain, Bird is the 
+//supertype for duck, while duck is the subtype. Object is a supertype for
+// both Bird and duck. Object is a supertype for all 
+//objects in JavaScript. Therefore, any object can use the hasOwnProperty method.
+
+
+
+function Dmiog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // yields true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
