@@ -62,3 +62,46 @@ console.log(increment(5));
 
 
 
+
+
+
+//Use the Rest Operator to Evaluate Arrays In-Place
+
+const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+let arr2;
+
+arr2 = ["JAN", "FEB", "MAR", "APR", "MAY"]; // Change this line
+
+console.log(...arr1, ...arr2);
+
+
+//Use the Spread Operator to Evaluate Arrays In-Place
+
+const arr1 = ["JAN", "FEB", "MAR", "APR", "MAY"];
+let arr2 = [...arr1];
+
+arr2 = ["JAN", "FEB", "MAR", "APR", "MAY"]; // Change this line
+// arr2.push(...arr1)
+// console.log(...arr1);
+console.log(arr2);
+
+///Use Destructuring Assignment to Extract Values from Objects
+
+ 
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Only change code below this line
+
+// const today = HIGH_TEMPERATURES.today;
+// const tomorrow = HIGH_TEMPERATURES.tomorrow;
+
+// Only change code above this line
+const { today, tomorrow } = HIGH_TEMPERATURES;
+// const{today,tomorrow}=HIGH_TEMPERATURES;
+
+
+
