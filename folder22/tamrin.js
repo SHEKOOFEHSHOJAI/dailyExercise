@@ -50,3 +50,6 @@ console.log(y);
 // const cat = "Blue";
 // cat.khandeh();
 // console.log(cat.khandeh);
+
+
+//LINK=>https:developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
