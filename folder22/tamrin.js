@@ -37,3 +37,16 @@ function Student() {
 // }
 // arr.push(5);
 // console.log(arr);
+
+// const body=document.body
+// console.dir(body);
+
+let y=Boolean.prototype.g=()=> {
+  console.log("uuuuuuuuuuuuuuuu")
+}
+console.log(y);
+
+// String.prototype.khandeh = () => alert("khkhkhkhkhkhkhkhkhkh....");
+// const cat = "Blue";
+// cat.khandeh();
+// console.log(cat.khandeh);
