@@ -113,16 +113,16 @@
 
 //////////////////////////////////
 
-function Alien(name,tech) {
+// function Alien(name,tech) {
 
-    console.log('lllllll');
-    this.nam=name
-    this.te=tech
-}
-const alien1=new Alien('navin','js')
-const alien2 = new Alien("navin", "vs");
-alien1.te="iiiiiiiiiiiiii"
-console.dir(alien1);
+//     console.log('lllllll');
+//     this.nam=name
+//     this.te=tech
+// }
+// const alien1=new Alien('navin','js')
+// const alien2 = new Alien("navin", "vs");
+// alien1.te="iiiiiiiiiiiiii"
+// console.dir(alien1);
 
 
 
@@ -130,4 +130,18 @@ console.dir(alien1);
 ///////////
    //CLASSES
 //////////
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
+///چرا داخل کلاس نمیتونیم لاگ بگیریم و حتما باید داخلش کانسترکتور بنویسیم
+class  Rectangle{
+
+    constructor(username,email){
+        this.usname=username
+        this.emil=email
+    }
+    login(){
+        return `welcome${usname}${this.emil}`;
+    }
+}
+const re1=new Rectangle("shekoofeh","shekoofeh.gmail.com")
+console.log(re1);
