@@ -53,11 +53,57 @@
 // first.rgb()
 
 
-function Ali(make, model,year) {
-    this.make=make
-    this.model=model
-    this.year=year
+// function Ali(make, model,year) {
+//     this.make=make
+//     this.model=model
+//     this.year=year
     
+// }
+// const car1=new Ali('spagti','zarmakaron',1300);
+// console.log(car1);
+
+
+// function Colour(r, g, b) {
+//   this.r = r;
+//   this.g = g;
+//   this.b = b;
+// }
+
+
+// Colour.prototype.rgb = function () {
+//   const { r, g, b } = this;
+//   return `rgb(${r}, ${g}, ${b})`;
+// };
+
+// const colour1 = new Colour(40, 255, 60);
+// console.log(colour1.rgb);
+
+
+
+
+
+function User(name, age) {
+  //this
+//   console.log(this);
+  this.name = name;
+  this.age = age;
 }
-const car1=new Ali('spagti','zarmakaron',1300);
-console.log(car1);
+
+const zahra = new User("zahra", 23);
+
+console.log(zahra);
+
+
+
+
+
+//  function createUser(name, age) {
+//   const user = {};
+//   user.name = name;
+//   user.age = age;
+
+//   return user;
+// }
+
+// const mahya = createUser("mahya", 22);
+// console.log(mahya);
