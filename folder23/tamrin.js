@@ -109,6 +109,9 @@
 // console.log(mahya);
 
 
+//////////////////////////////////
+
+//////////////////////////////////
 
 function Alien(name,tech) {
 
@@ -120,3 +123,11 @@ const alien1=new Alien('navin','js')
 const alien2 = new Alien("navin", "vs");
 alien1.te="iiiiiiiiiiiiii"
 console.dir(alien1);
+
+
+
+
+///////////
+   //CLASSES
+//////////
+
