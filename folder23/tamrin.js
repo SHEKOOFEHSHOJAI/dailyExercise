@@ -89,7 +89,7 @@ function User(name, age) {
   this.age = age;
 }
 
-const zahra = new User("zahra", 23);
+let zahra = new User("zahra", 23);
 
 console.log(zahra);
 
