@@ -82,16 +82,16 @@
 
 
 
-function User(name, age) {
-  //this
-//   console.log(this);
-  this.name = name;
-  this.age = age;
-}
+// function User(name, age) {
+//   //this
+// //   console.log(this);
+//   this.name = name;
+//   this.age = age;
+// }
 
-let zahra = new User("zahra", 23);
+// let zahra = new User("zahra", 23);
 
-console.log(zahra);
+// console.log(zahra);
 
 
 
@@ -107,3 +107,16 @@ console.log(zahra);
 
 // const mahya = createUser("mahya", 22);
 // console.log(mahya);
+
+
+
+function Alien(name,tech) {
+
+    console.log('lllllll');
+    this.nam=name
+    this.te=tech
+}
+const alien1=new Alien('navin','js')
+const alien2 = new Alien("navin", "vs");
+alien1.te="iiiiiiiiiiiiii"
+console.dir(alien1);
