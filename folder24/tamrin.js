@@ -24,8 +24,18 @@ class colur{
     this.blue=b
  }
  iinerrgb(){
-     const{r,g,b}=this
+     const{red,green,blue}=this
      console.log(this);
+     return `rgb(${red},${green},${blue})`;
  }
 }
-console.log(colur);
+const red=new colur(100,70,80)
+console.log(red.iinerrgb());
+document.body.style.backgroundColor = red.iinerrgb();
+
+
+//arr
+const arr = [1, 2, 3];
+arr.push(5);
+//arr.pop();
+console.log(arr);
