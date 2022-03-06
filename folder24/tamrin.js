@@ -23,5 +23,9 @@ class colur{
     this.green=g
     this.blue=b
  }
+ iinerrgb(){
+     const{r,g,b}=this
+     console.log(this);
+ }
 }
 console.log(colur);
