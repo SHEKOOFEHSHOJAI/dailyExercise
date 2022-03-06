@@ -1,4 +1,4 @@
-let rectangle=class{
+let rectangle=class SHEKOO{
     constructor(height,width){ 2
      this.height=height
      this.width=width
