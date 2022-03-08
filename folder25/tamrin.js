@@ -77,27 +77,95 @@
 
 
 /////////////////////چرا اینجاعدد 9 بهش داده نمیشه و مقدار اندیفاین است مقدار سن
-class Pet {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+// class Pet {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
     
-  }
+//   }
 
-  eat() {
-    return `${this.name} is eating!`;
-  }
-}
+//   eat() {
+//     return `${this.name} is eating!`;
+//   }
+// }
 
-class Cat extends Pet {
-  constructor(name, age, livesLeft = 9) {
-    super(name, age);
-    this.livesLeft = livesLeft;
-  }
-  meow() {
-    return "MEOWWW!!!";
-  }
-}
+// class Cat extends Pet {
+//   constructor(name, age, livesLeft = 9) {
+//     super(name, age);
+//     this.livesLeft = livesLeft;
+//   }
+//   meow() {
+//     return "MEOWWW!!!";
+//   }
+// }
 
-const gorbe = new Cat("pishi", 3);
-console.log(gorbe);
+// const gorbe = new Cat("pishi", 3);
+// console.log(gorbe);
+
+
+
+
+
+
+
+
+/////////////////////////////////
+
+
+/////////////////////////////////
+
+
+
+// class pet {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   eat() {
+//     return `${this.name} is eating!`;
+//   }
+// }
+
+
+
+
+// class cat extends pet {
+//   constructor(name, age,livesLeft = 9) {
+//     super(name, age, livesLeft);
+//     this.livesLeft = livesLeft;
+//   }
+//   play() {
+//     return `${this.livesLeft} lives left`;
+//   }
+// }
+
+
+// // const p=new cat("shekoofeh:)",
+// // "shekoofehshojai@gmail.com")
+//  const rex = new cat("rex", 3, 5);
+// console.log(rex.eat());
+
+
+
+///////////////////////////////////////////
+
+String.prototype.khandeh = () => alert("khkhkhkhkhkhkhkhkhkh....");
+const cat = "Blue";
+cat.khandeh();
+console.log(String);
+
+const arr=[1,2,3,45]
+arr.sing = function () {
+  return console.log("hala lalay lalay hala lay lay");
+};
+console.log(arr);
+
+
+
+
+
+
+
+
+
