@@ -16,6 +16,10 @@ const folder = process.argv[2] || "prject";
 try{
 fs.mkdirSync(folder)
 fs.writeFileSync(`${folder}/index.html`,"<html></html>")
+fs.writeFileSync(`${folder}/index.css`,"hi am css")
+fs.writeFileSync(`${folder}/index.js`, "hi am js");
+
+
 // console.log(folder);
 }
 catch(error){
