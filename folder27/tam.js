@@ -63,11 +63,11 @@
 // sum(1, 2, 3, 4, 5, 6, 8, 12, 100);
 
 
-function raceResults(gold, silver, ...others) {
-  console.log(`gold medal goes to: ${gold}`);
-  console.log(`silver medal goes to: ${silver}`);
-  console.log(`Thanks to: ${others}`);
-}
-raceResults("Schumacher");
-raceResults("Schumacher", "Hamilton");
-raceResults("Schumacher", "Hamilton", "Vette", "Roseberg", "Button");
+// function raceResults2(...others) {
+//   console.log(`gold medal goes to: ${others[0]}`);
+//   console.log(`silver medal goes to: ${others[1]}`);
+//   console.log(`Thanks to: ${others}`);
+// }
+// // raceResults("Schumacher");
+// // raceResults("Schumacher", "Hamilton");
+// raceResults2("Schumacher", "Hamilton", "Vette", "Roseberg", "Button");
