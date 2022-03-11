@@ -6,10 +6,10 @@
     
 // }
 // console.log(nam);
-// let u=String.prototype.yell = function () {
-//   console.log(this.toUpperCase());
-// };
-// console.log(u);
+let u=String.prototype.yell = function () {
+  console.log(this.toUpperCase());
+};
+console.log(u);
 
 // const arr = [1, 2, 3, 4];
 // arr.sing = function () {
@@ -132,16 +132,17 @@
 //////////
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
-///چرا داخل کلاس نمیتونیم لاگ بگیریم و حتما باید داخلش کانسترکتور بنویسیم
+///چرا داخل کلاس نمیتونیم لاگ بگیریم
+// و حتما باید داخلش کانسترکتور بنویسیم
 class  Rectangle{
 
-    constructor(username,email){
-        this.usname=username
-        this.emil=email
-    }
-    login(){
-        return `welcome${usname}${this.emil}`;
-    }
+    // constructor(username,email){
+    //     this.usname=username
+    //     this.emil=email
+    // }
+    // login(){
+    //     return `welcome${usname}${this.emil}`;
+    // }
 }
 const re1=new Rectangle("shekoofeh","shekoofeh.gmail.com")
-console.log(re1);
+console.log(Rectangle);
